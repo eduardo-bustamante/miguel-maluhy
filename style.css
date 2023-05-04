@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dce3e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.container {
+  margin: 10px 0;
+  padding: 15px;
+  width: 1080px;
+  border: 1px solid red;
+  background-color: white;
+  /* box-shadow: 10px 10px gray; */
+}
+
+header {
+  /* background-color: rgb(153, 171, 205); */
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#imagem-top {
+  display: flex;
+}
+
+#imagem-topo img {
+  width: 50px;
+}
+
+#menu {
+  margin-left: 25px;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#menu li a:hover {
+  background-color: pink;
+  color: red;
+}
+
+/* corpo da pagina */
+#corpo h1, h4 {
+  text-transform: uppercase;
+  color: rgb(47,28,106);
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+#corpo p {
+  margin-top: 15px;
+  text-align: justify;
+
+}
+
+#corpo img {
+  margin-top: 10px;
+  padding: 25px;
+  width: 300px;
+  border: 1px solid gray;
+  box-shadow: 10px 20px grey;
+
+}
+
+.imagens-centro {
+  display: flex;
+  justify-content: center;
+}
+
+#corpo h2{
+  color: rgb(47,28,106);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+p a{
+  text-transform: uppercase;
+}
